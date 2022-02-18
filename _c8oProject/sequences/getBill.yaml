@@ -1,0 +1,48 @@
+↓IfBillIdEmpty [steps.IfStep-1332860523034]: 
+  condition: billId == null
+  ↓erreur [steps.XMLElementStep-1332860523037]: 
+    nodeName: ws_error
+    nodeText: Variable billId must be filled.
+  ↓Return [steps.ReturnStep-1332860523040]: 
+↓Read_XML_bills [steps.ReadXMLStep-1332860523043]: 
+  dataFile: '".//xml_data/bills.xml"'
+↓IteratorOnEachBill [steps.IteratorStep-1332860523046]: 
+  sourceDefinition: 
+    - xmlizable: 
+      - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+      - com.twinsoft.convertigo.beans.common.XMLVector: 
+        - java.lang.String: 
+          - ↑value: 1332860523043
+        - java.lang.String: 
+          - ↑value: ./bills/bill
+  ↓currentId [steps.SourceStep-1332860523049]: 
+    sourceDefinition: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+        - com.twinsoft.convertigo.beans.common.XMLVector: 
+          - java.lang.String: 
+            - ↑value: 1332860523046
+          - java.lang.String: 
+            - ↑value: ./id
+    variableName: currentId
+  ↓IfIdFound [steps.IfStep-1332860523052]: 
+    condition: parseInt(currentId.item(0).getTextContent()) == parseInt(billId)
+    ↓Complex_bill [steps.XMLComplexStep-1332861090389]: 
+      nodeName: bill
+      ↓CopySalary [steps.XMLCopyStep-1332861103497]: 
+        sourceDefinition: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+            - com.twinsoft.convertigo.beans.common.XMLVector: 
+              - java.lang.String: 
+                - ↑value: 1332860523046
+              - java.lang.String: 
+                - ↑value: ./*
+    ↓Return [steps.ReturnStep-1332860523058]: 
+↓erreur [steps.XMLElementStep-1332860523061]: 
+  nodeName: ws_error
+  nodeText: Matching billId was not found.
+↓billId [variables.RequestableVariable-1332860523064]: 
+↓Test_Case [core.TestCase]: 
+  ↓billId [variables.TestCaseVariable-1332860552942]: 
+    value: 1244

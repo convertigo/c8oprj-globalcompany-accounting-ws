@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:globalCompany_accounting_WS_ns="http://www.convertigo.com/convertigo/projects/globalCompany_accounting_WS" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://www.convertigo.com/convertigo/projects/globalCompany_accounting_WS">
+<xsd:complexType name="ConvertigoErrorContext">
+<xsd:sequence>
+<xsd:element maxOccurs="unbounded" minOccurs="0" name="variable" type="globalCompany_accounting_WS_ns:ConvertigoErrorContextVariable"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="ConvertigoError">
+<xsd:sequence>
+<xsd:element name="context" type="globalCompany_accounting_WS_ns:ConvertigoErrorContext"/>
+<xsd:element name="exception" type="xsd:string"/>
+<xsd:element name="message" type="xsd:string"/>
+<xsd:element name="stacktrace" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="ConvertigoErrorContextVariable">
+<xsd:attribute name="name" type="xsd:string"/>
+<xsd:attribute name="value" type="xsd:string"/>
+</xsd:complexType>
+<xsd:complexType name="databaseConnector__defaultTransactionToBeConfiguredResponseData"/>
+<xsd:element name="databaseConnector__defaultTransactionToBeConfigured" type="globalCompany_accounting_WS_ns:databaseConnector__defaultTransactionToBeConfiguredRequestData">
+<xsd:annotation/>
+</xsd:element>
+<xsd:element name="databaseConnector__defaultTransactionToBeConfiguredResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="response" type="globalCompany_accounting_WS_ns:databaseConnector__defaultTransactionToBeConfiguredResponseData"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:complexType name="databaseConnector__defaultTransactionToBeConfiguredRequestData">
+<xsd:annotation/>
+<xsd:sequence>
+<xsd:element name="tableName" type="xsd:string">
+<xsd:annotation>
+<xsd:appinfo>tableName</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="bill1332861090389StepType">
+<xsd:annotation/>
+<xsd:sequence/>
+</xsd:complexType>
+<xsd:element name="billsList" type="globalCompany_accounting_WS_ns:billsListRequestData">
+<xsd:annotation/>
+</xsd:element>
+<xsd:element name="billsListResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="response" type="globalCompany_accounting_WS_ns:billsListResponseData"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:complexType name="billsListRequestData">
+<xsd:annotation/>
+<xsd:sequence/>
+</xsd:complexType>
+<xsd:complexType name="billsList_document_billType">
+<xsd:sequence>
+<xsd:element maxOccurs="unbounded" minOccurs="0" name="id" type="xsd:short"/>
+<xsd:element maxOccurs="unbounded" minOccurs="0" name="date" type="xsd:string"/>
+<xsd:element maxOccurs="unbounded" minOccurs="0" name="address" type="xsd:string"/>
+<xsd:element maxOccurs="unbounded" minOccurs="0" name="postCode" type="xsd:string"/>
+<xsd:element maxOccurs="unbounded" minOccurs="0" name="city" type="xsd:string"/>
+<xsd:element maxOccurs="unbounded" minOccurs="0" name="country" type="xsd:string"/>
+<xsd:element maxOccurs="unbounded" minOccurs="0" name="contact" type="xsd:string"/>
+<xsd:element maxOccurs="unbounded" minOccurs="0" name="phone" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="billsListResponseData">
+<xsd:sequence>
+<xsd:element maxOccurs="unbounded" minOccurs="0" name="bill" type="globalCompany_accounting_WS_ns:billsList_document_billType"/>
+<xsd:element minOccurs="0" name="ws_error" type="xsd:string"/>
+</xsd:sequence>
+<xsd:attribute name="connector" type="xsd:string"/>
+<xsd:attribute name="context" type="xsd:string"/>
+<xsd:attribute name="contextId" type="xsd:string"/>
+<xsd:attribute name="fromcache" type="xsd:boolean"/>
+<xsd:attribute name="generated" type="xsd:string"/>
+<xsd:attribute name="project" type="xsd:string"/>
+<xsd:attribute name="sequence" type="xsd:string"/>
+<xsd:attribute name="signature" type="xsd:long"/>
+<xsd:attribute name="transaction" type="xsd:string"/>
+<xsd:attribute name="version" type="xsd:string"/>
+</xsd:complexType>
+<xsd:element name="getBill" type="globalCompany_accounting_WS_ns:getBillRequestData">
+<xsd:annotation/>
+</xsd:element>
+<xsd:element name="getBillResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="response" type="globalCompany_accounting_WS_ns:getBillResponseData"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:complexType name="getBillRequestData">
+<xsd:annotation/>
+<xsd:sequence>
+<xsd:element name="billId" type="xsd:string">
+<xsd:annotation>
+<xsd:appinfo>new variable</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="getBill_document_billType">
+<xsd:sequence>
+<xsd:element minOccurs="0" name="id" type="xsd:short"/>
+<xsd:element minOccurs="0" name="date" type="xsd:string"/>
+<xsd:element minOccurs="0" name="address" type="xsd:string"/>
+<xsd:element minOccurs="0" name="postCode" type="xsd:string"/>
+<xsd:element minOccurs="0" name="city" type="xsd:string"/>
+<xsd:element minOccurs="0" name="country" type="xsd:string"/>
+<xsd:element minOccurs="0" name="contact" type="xsd:string"/>
+<xsd:element minOccurs="0" name="phone" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="getBillResponseData">
+<xsd:sequence>
+<xsd:element minOccurs="0" name="bill" type="globalCompany_accounting_WS_ns:getBill_document_billType"/>
+</xsd:sequence>
+<xsd:attribute name="connector" type="xsd:string"/>
+<xsd:attribute name="context" type="xsd:string"/>
+<xsd:attribute name="contextId" type="xsd:string"/>
+<xsd:attribute name="fromcache" type="xsd:boolean"/>
+<xsd:attribute name="generated" type="xsd:string"/>
+<xsd:attribute name="project" type="xsd:string"/>
+<xsd:attribute name="sequence" type="xsd:string"/>
+<xsd:attribute name="signature" type="xsd:long"/>
+<xsd:attribute name="transaction" type="xsd:string"/>
+<xsd:attribute name="version" type="xsd:string"/>
+</xsd:complexType>
+<xsd:element name="getSalary" type="globalCompany_accounting_WS_ns:getSalaryRequestData">
+<xsd:annotation/>
+</xsd:element>
+<xsd:element name="getSalaryResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="response" type="globalCompany_accounting_WS_ns:getSalaryResponseData"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:complexType name="getSalaryRequestData">
+<xsd:annotation/>
+<xsd:sequence>
+<xsd:element name="employeeId" type="xsd:string">
+<xsd:annotation>
+<xsd:appinfo>new variable</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="getSalaryResponseData">
+<xsd:sequence>
+<xsd:element minOccurs="0" name="salary" type="xsd:short"/>
+<xsd:element minOccurs="0" name="ws_error" type="xsd:string"/>
+</xsd:sequence>
+<xsd:attribute name="connector" type="xsd:string"/>
+<xsd:attribute name="context" type="xsd:string"/>
+<xsd:attribute name="contextId" type="xsd:string"/>
+<xsd:attribute name="fromcache" type="xsd:boolean"/>
+<xsd:attribute name="generated" type="xsd:string"/>
+<xsd:attribute name="project" type="xsd:string"/>
+<xsd:attribute name="sequence" type="xsd:string"/>
+<xsd:attribute name="signature" type="xsd:long"/>
+<xsd:attribute name="transaction" type="xsd:string"/>
+<xsd:attribute name="version" type="xsd:string"/>
+</xsd:complexType>
+<xsd:element name="salariesList" type="globalCompany_accounting_WS_ns:salariesListRequestData">
+<xsd:annotation/>
+</xsd:element>
+<xsd:element name="salariesListResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="response" type="globalCompany_accounting_WS_ns:salariesListResponseData"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:complexType name="salariesListRequestData">
+<xsd:annotation/>
+<xsd:sequence/>
+</xsd:complexType>
+<xsd:complexType name="salariesList_document_salaryType">
+<xsd:sequence>
+<xsd:element maxOccurs="unbounded" minOccurs="0" name="idEmployee" type="xsd:byte"/>
+<xsd:element maxOccurs="unbounded" minOccurs="0" name="salary" type="xsd:short"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="salariesListResponseData">
+<xsd:sequence>
+<xsd:element maxOccurs="unbounded" minOccurs="0" name="salary" type="globalCompany_accounting_WS_ns:salariesList_document_salaryType"/>
+</xsd:sequence>
+<xsd:attribute name="connector" type="xsd:string"/>
+<xsd:attribute name="context" type="xsd:string"/>
+<xsd:attribute name="contextId" type="xsd:string"/>
+<xsd:attribute name="fromcache" type="xsd:boolean"/>
+<xsd:attribute name="generated" type="xsd:string"/>
+<xsd:attribute name="project" type="xsd:string"/>
+<xsd:attribute name="sequence" type="xsd:string"/>
+<xsd:attribute name="signature" type="xsd:long"/>
+<xsd:attribute name="transaction" type="xsd:string"/>
+<xsd:attribute name="version" type="xsd:string"/>
+</xsd:complexType>
+</xsd:schema>

@@ -1,0 +1,11 @@
+↓Read_XML_employes [steps.ReadXMLStep-1323175658701]: 
+  dataFile: '".//xml_data/salaries.xml"'
+↓Copy_result [steps.XMLCopyStep-1323175658704]: 
+  sourceDefinition: 
+    - xmlizable: 
+      - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+      - com.twinsoft.convertigo.beans.common.XMLVector: 
+        - java.lang.String: 
+          - ↑value: 1323175658701
+        - java.lang.String: 
+          - ↑value: ./salaries/salary

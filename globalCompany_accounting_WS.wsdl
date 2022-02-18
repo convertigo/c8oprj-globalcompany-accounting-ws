@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="globalCompany_accounting_WS" targetNamespace="http://www.convertigo.com/convertigo/projects/globalCompany_accounting_WS" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:globalCompany_accounting_WS_ns="http://www.convertigo.com/convertigo/projects/globalCompany_accounting_WS" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">
+	<wsdl:types>
+		<xsd:schema attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://www.convertigo.com/convertigo/projects/globalCompany_accounting_WS" xmlns:n0="http://www.convertigo.com/convertigo/projects/globalCompany_accounting_WS" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+			<xsd:complexType name="ConvertigoErrorContextVariable">
+				<xsd:attribute name="name" type="xsd:string"/>
+				<xsd:attribute name="value" type="xsd:string"/>
+			</xsd:complexType>
+			<xsd:complexType name="ConvertigoErrorContext">
+				<xsd:sequence>
+					<xsd:element maxOccurs="unbounded" minOccurs="0" name="variable" type="n0:ConvertigoErrorContextVariable"/>
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:complexType name="ConvertigoError">
+				<xsd:sequence minOccurs="0">
+					<xsd:element name="code" type="xsd:integer"/>
+					<xsd:element name="message" type="xsd:string"/>
+					<xsd:element name="details" type="xsd:string"/>
+					<xsd:element name="context" type="n0:ConvertigoErrorContext"/>
+					<xsd:element name="exception" type="xsd:string"/>
+					<xsd:element name="stacktrace" type="xsd:string"/>
+				</xsd:sequence>
+				<xsd:attribute name="project" type="xsd:string"/>
+				<xsd:attribute name="connector" type="xsd:string"/>
+				<xsd:attribute name="transaction" type="xsd:string"/>
+				<xsd:attribute name="sequence" type="xsd:string"/>
+				<xsd:attribute name="type">
+					<xsd:simpleType>
+						<xsd:restriction base="xsd:string">
+							<xsd:enumeration value="c8o"/>
+							<xsd:enumeration value="project"/>
+						</xsd:restriction>
+					</xsd:simpleType>
+				</xsd:attribute>
+			</xsd:complexType>
+			<xsd:complexType name="billsListResponseData">
+				<xsd:sequence>
+					<xsd:element maxOccurs="unbounded" minOccurs="0" name="bill">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element maxOccurs="unbounded" minOccurs="0" name="id" type="xsd:short"/>
+								<xsd:element maxOccurs="unbounded" minOccurs="0" name="date" type="xsd:string"/>
+								<xsd:element maxOccurs="unbounded" minOccurs="0" name="address" type="xsd:string"/>
+								<xsd:element maxOccurs="unbounded" minOccurs="0" name="postCode" type="xsd:string"/>
+								<xsd:element maxOccurs="unbounded" minOccurs="0" name="city" type="xsd:string"/>
+								<xsd:element maxOccurs="unbounded" minOccurs="0" name="country" type="xsd:string"/>
+								<xsd:element maxOccurs="unbounded" minOccurs="0" name="contact" type="xsd:string"/>
+								<xsd:element maxOccurs="unbounded" minOccurs="0" name="phone" type="xsd:string"/>
+							</xsd:sequence>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element minOccurs="0" name="error" type="n0:ConvertigoError"/>
+				</xsd:sequence>
+				<xsd:attribute name="connector" type="xsd:string"/>
+				<xsd:attribute name="context" type="xsd:string"/>
+				<xsd:attribute name="contextId" type="xsd:string"/>
+				<xsd:attribute name="fromStub" type="xsd:string"/>
+				<xsd:attribute name="fromcache" type="xsd:string"/>
+				<xsd:attribute name="generated" type="xsd:string"/>
+				<xsd:attribute name="project" type="xsd:string"/>
+				<xsd:attribute name="screenclass" type="xsd:string"/>
+				<xsd:attribute name="sequence" type="xsd:string"/>
+				<xsd:attribute name="signature" type="xsd:string"/>
+				<xsd:attribute name="transaction" type="xsd:string"/>
+				<xsd:attribute name="userReference" type="xsd:string"/>
+				<xsd:attribute name="version" type="xsd:string"/>
+			</xsd:complexType>
+			<xsd:complexType name="billsListRequestData"/>
+			<xsd:element name="billsList" type="n0:billsListRequestData"/>
+			<xsd:element name="billsListResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="response" type="n0:billsListResponseData"/>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:complexType name="getBillResponseData">
+				<xsd:sequence>
+					<xsd:sequence minOccurs="0">
+						<xsd:element name="ws_error" type="xsd:string"/>
+					</xsd:sequence>
+					<xsd:sequence maxOccurs="unbounded" minOccurs="0">
+						<xsd:sequence minOccurs="0">
+							<xsd:element name="bill">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:sequence>
+											<xsd:element maxOccurs="unbounded" minOccurs="0" name="id" type="xsd:short"/>
+											<xsd:element maxOccurs="unbounded" minOccurs="0" name="date" type="xsd:string"/>
+											<xsd:element maxOccurs="unbounded" minOccurs="0" name="address" type="xsd:string"/>
+											<xsd:element maxOccurs="unbounded" minOccurs="0" name="postCode" type="xsd:string"/>
+											<xsd:element maxOccurs="unbounded" minOccurs="0" name="city" type="xsd:string"/>
+											<xsd:element maxOccurs="unbounded" minOccurs="0" name="country" type="xsd:string"/>
+											<xsd:element maxOccurs="unbounded" minOccurs="0" name="contact" type="xsd:string"/>
+											<xsd:element maxOccurs="unbounded" minOccurs="0" name="phone" type="xsd:string"/>
+										</xsd:sequence>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:sequence>
+					<xsd:element name="ws_error" type="xsd:string"/>
+					<xsd:element minOccurs="0" name="error" type="n0:ConvertigoError"/>
+				</xsd:sequence>
+				<xsd:attribute name="connector" type="xsd:string"/>
+				<xsd:attribute name="context" type="xsd:string"/>
+				<xsd:attribute name="contextId" type="xsd:string"/>
+				<xsd:attribute name="fromStub" type="xsd:string"/>
+				<xsd:attribute name="fromcache" type="xsd:string"/>
+				<xsd:attribute name="generated" type="xsd:string"/>
+				<xsd:attribute name="project" type="xsd:string"/>
+				<xsd:attribute name="screenclass" type="xsd:string"/>
+				<xsd:attribute name="sequence" type="xsd:string"/>
+				<xsd:attribute name="signature" type="xsd:string"/>
+				<xsd:attribute name="transaction" type="xsd:string"/>
+				<xsd:attribute name="userReference" type="xsd:string"/>
+				<xsd:attribute name="version" type="xsd:string"/>
+			</xsd:complexType>
+			<xsd:complexType name="getBillRequestData">
+				<xsd:sequence>
+					<xsd:element name="billId" type="xsd:string">
+						<xsd:annotation>
+							<xsd:appinfo>new variable</xsd:appinfo>
+						</xsd:annotation>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:element name="getBill" type="n0:getBillRequestData"/>
+			<xsd:element name="getBillResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="response" type="n0:getBillResponseData"/>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:complexType name="getSalaryResponseData">
+				<xsd:sequence>
+					<xsd:sequence minOccurs="0">
+						<xsd:element name="ws_error" type="xsd:string"/>
+					</xsd:sequence>
+					<xsd:sequence maxOccurs="unbounded" minOccurs="0">
+						<xsd:sequence minOccurs="0">
+							<xsd:element maxOccurs="unbounded" minOccurs="0" name="salary" type="xsd:short"/>
+						</xsd:sequence>
+					</xsd:sequence>
+					<xsd:element name="ws_error" type="xsd:string"/>
+					<xsd:element minOccurs="0" name="error" type="n0:ConvertigoError"/>
+				</xsd:sequence>
+				<xsd:attribute name="connector" type="xsd:string"/>
+				<xsd:attribute name="context" type="xsd:string"/>
+				<xsd:attribute name="contextId" type="xsd:string"/>
+				<xsd:attribute name="fromStub" type="xsd:string"/>
+				<xsd:attribute name="fromcache" type="xsd:string"/>
+				<xsd:attribute name="generated" type="xsd:string"/>
+				<xsd:attribute name="project" type="xsd:string"/>
+				<xsd:attribute name="screenclass" type="xsd:string"/>
+				<xsd:attribute name="sequence" type="xsd:string"/>
+				<xsd:attribute name="signature" type="xsd:string"/>
+				<xsd:attribute name="transaction" type="xsd:string"/>
+				<xsd:attribute name="userReference" type="xsd:string"/>
+				<xsd:attribute name="version" type="xsd:string"/>
+			</xsd:complexType>
+			<xsd:complexType name="getSalaryRequestData">
+				<xsd:sequence>
+					<xsd:element name="employeeId" type="xsd:string">
+						<xsd:annotation>
+							<xsd:appinfo>new variable</xsd:appinfo>
+						</xsd:annotation>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:element name="getSalary" type="n0:getSalaryRequestData"/>
+			<xsd:element name="getSalaryResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="response" type="n0:getSalaryResponseData"/>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:complexType name="salariesListResponseData">
+				<xsd:sequence>
+					<xsd:element maxOccurs="unbounded" minOccurs="0" name="salary">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element maxOccurs="unbounded" minOccurs="0" name="idEmployee" type="xsd:byte"/>
+								<xsd:element maxOccurs="unbounded" minOccurs="0" name="salary" type="xsd:short"/>
+							</xsd:sequence>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element minOccurs="0" name="error" type="n0:ConvertigoError"/>
+				</xsd:sequence>
+				<xsd:attribute name="connector" type="xsd:string"/>
+				<xsd:attribute name="context" type="xsd:string"/>
+				<xsd:attribute name="contextId" type="xsd:string"/>
+				<xsd:attribute name="fromStub" type="xsd:string"/>
+				<xsd:attribute name="fromcache" type="xsd:string"/>
+				<xsd:attribute name="generated" type="xsd:string"/>
+				<xsd:attribute name="project" type="xsd:string"/>
+				<xsd:attribute name="screenclass" type="xsd:string"/>
+				<xsd:attribute name="sequence" type="xsd:string"/>
+				<xsd:attribute name="signature" type="xsd:string"/>
+				<xsd:attribute name="transaction" type="xsd:string"/>
+				<xsd:attribute name="userReference" type="xsd:string"/>
+				<xsd:attribute name="version" type="xsd:string"/>
+			</xsd:complexType>
+			<xsd:complexType name="salariesListRequestData"/>
+			<xsd:element name="salariesList" type="n0:salariesListRequestData"/>
+			<xsd:element name="salariesListResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="response" type="n0:salariesListResponseData"/>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:schema>
+	</wsdl:types>
+	<wsdl:message name="billsListResponse">
+		<wsdl:part name="parameters" element="globalCompany_accounting_WS_ns:billsListResponse">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="billsListRequest">
+		<wsdl:part name="parameters" element="globalCompany_accounting_WS_ns:billsList">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="getSalaryRequest">
+		<wsdl:part name="parameters" element="globalCompany_accounting_WS_ns:getSalary">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="getSalaryResponse">
+		<wsdl:part name="parameters" element="globalCompany_accounting_WS_ns:getSalaryResponse">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="salariesListRequest">
+		<wsdl:part name="parameters" element="globalCompany_accounting_WS_ns:salariesList">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="getBillRequest">
+		<wsdl:part name="parameters" element="globalCompany_accounting_WS_ns:getBill">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="getBillResponse">
+		<wsdl:part name="parameters" element="globalCompany_accounting_WS_ns:getBillResponse">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="salariesListResponse">
+		<wsdl:part name="parameters" element="globalCompany_accounting_WS_ns:salariesListResponse">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:portType name="globalCompany_accounting_WSPortType">
+		<wsdl:operation name="billsList">
+			<wsdl:input message="globalCompany_accounting_WS_ns:billsListRequest">
+			</wsdl:input>
+			<wsdl:output message="globalCompany_accounting_WS_ns:billsListResponse">
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getBill">
+			<wsdl:input message="globalCompany_accounting_WS_ns:getBillRequest">
+			</wsdl:input>
+			<wsdl:output message="globalCompany_accounting_WS_ns:getBillResponse">
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getSalary">
+			<wsdl:input message="globalCompany_accounting_WS_ns:getSalaryRequest">
+			</wsdl:input>
+			<wsdl:output message="globalCompany_accounting_WS_ns:getSalaryResponse">
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="salariesList">
+			<wsdl:input message="globalCompany_accounting_WS_ns:salariesListRequest">
+			</wsdl:input>
+			<wsdl:output message="globalCompany_accounting_WS_ns:salariesListResponse">
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="globalCompany_accounting_WSSOAPBinding" type="globalCompany_accounting_WS_ns:globalCompany_accounting_WSPortType">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="billsList">
+			<soap:operation soapAction="globalCompany_accounting_WS?billsList"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getBill">
+			<soap:operation soapAction="globalCompany_accounting_WS?getBill"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getSalary">
+			<soap:operation soapAction="globalCompany_accounting_WS?getSalary"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="salariesList">
+			<soap:operation soapAction="globalCompany_accounting_WS?salariesList"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="globalCompany_accounting_WS">
+		<wsdl:port name="globalCompany_accounting_WSSOAP" binding="globalCompany_accounting_WS_ns:globalCompany_accounting_WSSOAPBinding">
+			<soap:address location="http://demo.convertigo.net/cems/projects/globalCompany_accounting_WS/.wsl"/>
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

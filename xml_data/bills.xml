@@ -1,0 +1,1001 @@
+<bills>	<bill>
+		<id>1234</id>
+		<date>03/25/2012</date>
+		<address>911-7822 Sit Rd.</address>
+		<postCode>W3Z 6C4</postCode>
+		<city>Lubbock</city>
+		<country>Dominican Republic</country>
+		<contact>Evan V. Johnson</contact>
+		<phone>1 79 351 8859-4770</phone>
+	</bill>
+	<bill>
+		<id>1235</id>
+		<date>08/28/2011</date>
+		<address>Ap #788-8828 Rhoncus. Avenue</address>
+		<postCode>C7N 1I6</postCode>
+		<city>Muncie</city>
+		<country>Sweden</country>
+		<contact>Sybill I. Todd</contact>
+		<phone>1 76 391 4808-7565</phone>
+	</bill>
+	<bill>
+		<id>1236</id>
+		<date>05/18/2011</date>
+		<address>170-7304 Ut Avenue</address>
+		<postCode>J8C 9Y4</postCode>
+		<city>Manhattan Beach</city>
+		<country>Madagascar</country>
+		<contact>Elizabeth L. Hensley</contact>
+		<phone>1 61 180 2282-1677</phone>
+	</bill>
+	<bill>
+		<id>1237</id>
+		<date>09/24/2012</date>
+		<address>Ap #639-4488 Aliquam Road</address>
+		<postCode>Z8H 1S2</postCode>
+		<city>Lexington</city>
+		<country>Djibouti</country>
+		<contact>Olympia Q. Rodriquez</contact>
+		<phone>1 24 712 8357-6634</phone>
+	</bill>
+	<bill>
+		<id>1238</id>
+		<date>08/29/2011</date>
+		<address>1558 Varius Rd.</address>
+		<postCode>H6A 1W0</postCode>
+		<city>San Francisco</city>
+		<country>Bahrain</country>
+		<contact>Lawrence U. Ayers</contact>
+		<phone>1 46 974 2025-6023</phone>
+	</bill>
+	<bill>
+		<id>1239</id>
+		<date>06/23/2012</date>
+		<address>Ap #845-4979 Erat. Rd.</address>
+		<postCode>87498</postCode>
+		<city>Grand Island</city>
+		<country>Zimbabwe</country>
+		<contact>Mannix P. Hewitt</contact>
+		<phone>1 62 931 7737-0840</phone>
+	</bill>
+	<bill>
+		<id>1240</id>
+		<date>09/02/2012</date>
+		<address>748-4858 Aliquam Ave</address>
+		<postCode>F4E 9W0</postCode>
+		<city>Seaford</city>
+		<country>Colombia</country>
+		<contact>Basia Q. Huffman</contact>
+		<phone>1 71 864 1323-1315</phone>
+	</bill>
+	<bill>
+		<id>1241</id>
+		<date>10/01/2011</date>
+		<address>889-9374 Sem St.</address>
+		<postCode>11131</postCode>
+		<city>Zanesville</city>
+		<country>Kazakhstan</country>
+		<contact>Walter O. Conway</contact>
+		<phone>1 48 256 8961-2925</phone>
+	</bill>
+	<bill>
+		<id>1242</id>
+		<date>11/18/2011</date>
+		<address>3516 Lorem Av.</address>
+		<postCode>V3X 9L0</postCode>
+		<city>Gloucester</city>
+		<country>Mauritania</country>
+		<contact>Ariel N. Romero</contact>
+		<phone>1 33 905 4734-3563</phone>
+	</bill>
+	<bill>
+		<id>1243</id>
+		<date>05/29/2012</date>
+		<address>694-805 In St.</address>
+		<postCode>88078</postCode>
+		<city>Mankato</city>
+		<country>Serbia and Montenegro</country>
+		<contact>Clare W. Bowman</contact>
+		<phone>1 95 234 2899-2327</phone>
+	</bill>
+	<bill>
+		<id>1244</id>
+		<date>05/25/2012</date>
+		<address>Ap #174-1192 Leo. Rd.</address>
+		<postCode>E9B 1A7</postCode>
+		<city>Topeka</city>
+		<country>Mauritius</country>
+		<contact>Kimberley Q. Brewer</contact>
+		<phone>1 40 354 7626-6599</phone>
+	</bill>
+	<bill>
+		<id>1245</id>
+		<date>09/08/2011</date>
+		<address>Ap #899-302 Pede, Avenue</address>
+		<postCode>11512</postCode>
+		<city>New Bedford</city>
+		<country>United Kingdom</country>
+		<contact>Bianca M. Christensen</contact>
+		<phone>1 28 830 4781-0475</phone>
+	</bill>
+	<bill>
+		<id>1246</id>
+		<date>11/01/2012</date>
+		<address>4055 Ante Rd.</address>
+		<postCode>T4V 8P4</postCode>
+		<city>Batavia</city>
+		<country>Slovakia</country>
+		<contact>Akeem X. Zamora</contact>
+		<phone>1 24 203 4071-8813</phone>
+	</bill>
+	<bill>
+		<id>1247</id>
+		<date>03/23/2011</date>
+		<address>2221 Imperdiet Ave</address>
+		<postCode>23362</postCode>
+		<city>Dickinson</city>
+		<country>Croatia</country>
+		<contact>Lydia A. Fletcher</contact>
+		<phone>1 62 987 1814-9957</phone>
+	</bill>
+	<bill>
+		<id>1248</id>
+		<date>11/12/2011</date>
+		<address>P.O. Box 461, 4793 At Ave</address>
+		<postCode>60194</postCode>
+		<city>Rensselaer</city>
+		<country>Congo</country>
+		<contact>Marshall V. White</contact>
+		<phone>1 99 529 3091-1401</phone>
+	</bill>
+	<bill>
+		<id>1249</id>
+		<date>11/08/2012</date>
+		<address>7541 Dui Av.</address>
+		<postCode>32892</postCode>
+		<city>West Haven</city>
+		<country>Uganda</country>
+		<contact>Neve D. Page</contact>
+		<phone>1 46 926 4556-5576</phone>
+	</bill>
+	<bill>
+		<id>1250</id>
+		<date>08/12/2011</date>
+		<address>9082 Id Av.</address>
+		<postCode>76408</postCode>
+		<city>Frederiksted</city>
+		<country>United States Minor Outlying Islands</country>
+		<contact>Cedric W. Ellison</contact>
+		<phone>1 89 926 9523-0805</phone>
+	</bill>
+	<bill>
+		<id>1251</id>
+		<date>07/09/2012</date>
+		<address>311-5673 Et Av.</address>
+		<postCode>D2T 8Q7</postCode>
+		<city>Passaic</city>
+		<country>Ukraine</country>
+		<contact>Odette F. Soto</contact>
+		<phone>1 67 259 8540-8588</phone>
+	</bill>
+	<bill>
+		<id>1252</id>
+		<date>10/15/2011</date>
+		<address>Ap #385-4587 Habitant St.</address>
+		<postCode>J6J 2K9</postCode>
+		<city>Tulsa</city>
+		<country>Belarus</country>
+		<contact>Trevor Y. Miles</contact>
+		<phone>1 22 728 6031-1260</phone>
+	</bill>
+	<bill>
+		<id>1253</id>
+		<date>05/21/2011</date>
+		<address>P.O. Box 799, 146 Odio. Ave</address>
+		<postCode>03235</postCode>
+		<city>Pendleton</city>
+		<country>Grenada</country>
+		<contact>Hillary G. Roach</contact>
+		<phone>1 17 424 6007-4186</phone>
+	</bill>
+	<bill>
+		<id>1254</id>
+		<date>05/03/2011</date>
+		<address>4953 Lacus. Av.</address>
+		<postCode>N5V 5W1</postCode>
+		<city>Tuscaloosa</city>
+		<country>Guinea-bissau</country>
+		<contact>Ross U. Duncan</contact>
+		<phone>1 65 838 1751-7259</phone>
+	</bill>
+	<bill>
+		<id>1255</id>
+		<date>08/06/2011</date>
+		<address>257 Vitae St.</address>
+		<postCode>21479</postCode>
+		<city>Aguadilla</city>
+		<country>Nauru</country>
+		<contact>Bertha Z. Valdez</contact>
+		<phone>1 91 756 6856-5173</phone>
+	</bill>
+	<bill>
+		<id>1256</id>
+		<date>10/30/2011</date>
+		<address>577-4491 Neque Street</address>
+		<postCode>O4H 7V0</postCode>
+		<city>Oxford</city>
+		<country>Swaziland</country>
+		<contact>Maris T. Rivas</contact>
+		<phone>1 66 932 6902-5532</phone>
+	</bill>
+	<bill>
+		<id>1257</id>
+		<date>07/17/2011</date>
+		<address>Ap #273-2803 Curabitur Ave</address>
+		<postCode>28355</postCode>
+		<city>Danville</city>
+		<country>Martinique</country>
+		<contact>Charles F. Berry</contact>
+		<phone>1 98 867 2831-8564</phone>
+	</bill>
+	<bill>
+		<id>1258</id>
+		<date>08/22/2011</date>
+		<address>710-5274 Posuere Avenue</address>
+		<postCode>95878</postCode>
+		<city>Gardner</city>
+		<country>Faroe Islands</country>
+		<contact>Boris M. Stout</contact>
+		<phone>1 20 408 1709-1287</phone>
+	</bill>
+	<bill>
+		<id>1259</id>
+		<date>08/21/2012</date>
+		<address>Ap #878-6796 Morbi Street</address>
+		<postCode>K3I 9B0</postCode>
+		<city>Santa Ana</city>
+		<country>Haiti</country>
+		<contact>Harrison G. Valencia</contact>
+		<phone>1 80 321 3383-3051</phone>
+	</bill>
+	<bill>
+		<id>1260</id>
+		<date>12/21/2011</date>
+		<address>562-2881 Pede. Road</address>
+		<postCode>X7J 2O4</postCode>
+		<city>Gadsden</city>
+		<country>Haiti</country>
+		<contact>Rhiannon H. Parks</contact>
+		<phone>1 15 438 5623-9544</phone>
+	</bill>
+	<bill>
+		<id>1261</id>
+		<date>10/17/2012</date>
+		<address>1439 Eu Street</address>
+		<postCode>12686</postCode>
+		<city>Sutter Creek</city>
+		<country>Haiti</country>
+		<contact>Amelia T. Conley</contact>
+		<phone>1 88 194 4239-9538</phone>
+	</bill>
+	<bill>
+		<id>1262</id>
+		<date>05/24/2011</date>
+		<address>796-187 Odio. Ave</address>
+		<postCode>X7G 2L0</postCode>
+		<city>San Francisco</city>
+		<country>French Polynesia</country>
+		<contact>Indigo M. Sharp</contact>
+		<phone>1 26 425 8681-6779</phone>
+	</bill>
+	<bill>
+		<id>1263</id>
+		<date>10/25/2012</date>
+		<address>Ap #866-5669 Ut Av.</address>
+		<postCode>94426</postCode>
+		<city>Two Rivers</city>
+		<country>Equatorial Guinea</country>
+		<contact>Ima S. Cummings</contact>
+		<phone>1 37 891 2598-3141</phone>
+	</bill>
+	<bill>
+		<id>1264</id>
+		<date>08/11/2011</date>
+		<address>6302 Iaculis, Road</address>
+		<postCode>P2T 6R2</postCode>
+		<city>San Juan</city>
+		<country>France</country>
+		<contact>Camilla S. Bell</contact>
+		<phone>1 47 906 9174-1582</phone>
+	</bill>
+	<bill>
+		<id>1265</id>
+		<date>07/25/2012</date>
+		<address>P.O. Box 439, 7814 Arcu St.</address>
+		<postCode>43929</postCode>
+		<city>Needham</city>
+		<country>Kazakhstan</country>
+		<contact>Quin P. Trevino</contact>
+		<phone>1 86 956 1252-9045</phone>
+	</bill>
+	<bill>
+		<id>1266</id>
+		<date>09/08/2012</date>
+		<address>Ap #880-8429 Malesuada Ave</address>
+		<postCode>65405</postCode>
+		<city>New Haven</city>
+		<country>American Samoa</country>
+		<contact>Cameron U. Best</contact>
+		<phone>1 16 666 2374-8948</phone>
+	</bill>
+	<bill>
+		<id>1267</id>
+		<date>12/08/2010</date>
+		<address>Ap #189-5900 Nisl. Avenue</address>
+		<postCode>95259</postCode>
+		<city>Enid</city>
+		<country>Belgium</country>
+		<contact>Leandra G. Finch</contact>
+		<phone>1 60 336 9983-7216</phone>
+	</bill>
+	<bill>
+		<id>1268</id>
+		<date>09/19/2012</date>
+		<address>P.O. Box 708, 7685 Mus. St.</address>
+		<postCode>G4C 8P6</postCode>
+		<city>San Antonio</city>
+		<country>Switzerland</country>
+		<contact>Ori D. Grimes</contact>
+		<phone>1 90 223 8237-5007</phone>
+	</bill>
+	<bill>
+		<id>1269</id>
+		<date>11/14/2012</date>
+		<address>7704 Euismod Ave</address>
+		<postCode>O9Q 9A4</postCode>
+		<city>Loudon</city>
+		<country>Palestinian Territory, Occupied</country>
+		<contact>Daphne K. Guerrero</contact>
+		<phone>1 65 467 6969-3353</phone>
+	</bill>
+	<bill>
+		<id>1270</id>
+		<date>08/15/2012</date>
+		<address>P.O. Box 164, 923 Nulla. Street</address>
+		<postCode>46705</postCode>
+		<city>Saginaw</city>
+		<country>Mali</country>
+		<contact>Beck U. Huber</contact>
+		<phone>1 58 492 1799-3826</phone>
+	</bill>
+	<bill>
+		<id>1271</id>
+		<date>07/23/2011</date>
+		<address>P.O. Box 667, 6584 Euismod Rd.</address>
+		<postCode>S5O 4F6</postCode>
+		<city>West Hollywood</city>
+		<country>Viet Nam</country>
+		<contact>Chava K. Battle</contact>
+		<phone>1 95 334 5314-3526</phone>
+	</bill>
+	<bill>
+		<id>1272</id>
+		<date>11/11/2012</date>
+		<address>304-2799 Nec, Rd.</address>
+		<postCode>39393</postCode>
+		<city>Minot</city>
+		<country>Martinique</country>
+		<contact>Faith T. Lloyd</contact>
+		<phone>1 49 782 1374-5270</phone>
+	</bill>
+	<bill>
+		<id>1273</id>
+		<date>04/11/2011</date>
+		<address>243-6978 Et Road</address>
+		<postCode>L6V 4Z7</postCode>
+		<city>Saint Paul</city>
+		<country>Marshall Islands</country>
+		<contact>Ella C. Boyd</contact>
+		<phone>1 14 173 3860-2230</phone>
+	</bill>
+	<bill>
+		<id>1274</id>
+		<date>04/25/2012</date>
+		<address>Ap #648-9939 Sodales Av.</address>
+		<postCode>C4U 9V7</postCode>
+		<city>Oswego</city>
+		<country>Netherlands Antilles</country>
+		<contact>Fuller S. Wheeler</contact>
+		<phone>1 49 247 5751-8841</phone>
+	</bill>
+	<bill>
+		<id>1275</id>
+		<date>04/08/2012</date>
+		<address>P.O. Box 459, 4177 Ipsum. Av.</address>
+		<postCode>55434</postCode>
+		<city>Enfield</city>
+		<country>China</country>
+		<contact>Boris N. Taylor</contact>
+		<phone>1 16 907 4821-3402</phone>
+	</bill>
+	<bill>
+		<id>1276</id>
+		<date>06/24/2011</date>
+		<address>P.O. Box 742, 2195 Neque St.</address>
+		<postCode>12166</postCode>
+		<city>Lomita</city>
+		<country>Barbados</country>
+		<contact>Thomas E. Orr</contact>
+		<phone>1 82 341 3151-4758</phone>
+	</bill>
+	<bill>
+		<id>1277</id>
+		<date>02/16/2011</date>
+		<address>9772 Fermentum Ave</address>
+		<postCode>51363</postCode>
+		<city>Laguna Niguel</city>
+		<country>Faroe Islands</country>
+		<contact>Allegra J. Winters</contact>
+		<phone>1 96 678 8101-3537</phone>
+	</bill>
+	<bill>
+		<id>1278</id>
+		<date>11/24/2012</date>
+		<address>Ap #168-5699 Lectus Av.</address>
+		<postCode>B4Z 3U6</postCode>
+		<city>North Little Rock</city>
+		<country>Egypt</country>
+		<contact>Vanna G. Norris</contact>
+		<phone>1 36 983 8657-8831</phone>
+	</bill>
+	<bill>
+		<id>1279</id>
+		<date>12/15/2010</date>
+		<address>2746 Leo, Ave</address>
+		<postCode>57897</postCode>
+		<city>Avalon</city>
+		<country>Reunion</country>
+		<contact>Hamish Z. Orr</contact>
+		<phone>1 33 269 2438-1869</phone>
+	</bill>
+	<bill>
+		<id>1280</id>
+		<date>10/27/2012</date>
+		<address>P.O. Box 358, 7475 Magna St.</address>
+		<postCode>O5P 3H5</postCode>
+		<city>Appleton</city>
+		<country>Guadeloupe</country>
+		<contact>Demetria B. Henderson</contact>
+		<phone>1 37 443 4577-4951</phone>
+	</bill>
+	<bill>
+		<id>1281</id>
+		<date>01/04/2012</date>
+		<address>P.O. Box 985, 5578 Risus Street</address>
+		<postCode>01464</postCode>
+		<city>San Clemente</city>
+		<country>Cape Verde</country>
+		<contact>Ina K. Cannon</contact>
+		<phone>1 81 655 1896-6715</phone>
+	</bill>
+	<bill>
+		<id>1282</id>
+		<date>05/31/2011</date>
+		<address>603-5714 Arcu Street</address>
+		<postCode>C5M 2A0</postCode>
+		<city>New York</city>
+		<country>South Africa</country>
+		<contact>Dennis Y. Bean</contact>
+		<phone>1 78 234 7437-1942</phone>
+	</bill>
+	<bill>
+		<id>1283</id>
+		<date>01/17/2011</date>
+		<address>Ap #938-2820 Tellus. Ave</address>
+		<postCode>J4S 8P7</postCode>
+		<city>Turlock</city>
+		<country>Czech Republic</country>
+		<contact>Leigh H. Chang</contact>
+		<phone>1 58 261 6469-1785</phone>
+	</bill>
+	<bill>
+		<id>1284</id>
+		<date>08/01/2011</date>
+		<address>678-3042 Vehicula Road</address>
+		<postCode>86954</postCode>
+		<city>Marquette</city>
+		<country>French Southern Territories</country>
+		<contact>Graham X. Richard</contact>
+		<phone>1 50 432 2585-1769</phone>
+	</bill>
+	<bill>
+		<id>1285</id>
+		<date>06/21/2011</date>
+		<address>9897 Tellus. St.</address>
+		<postCode>P3A 4Y9</postCode>
+		<city>West Sacramento</city>
+		<country>Holy See (Vatican City State)</country>
+		<contact>Jermaine T. Estes</contact>
+		<phone>1 31 326 6571-3231</phone>
+	</bill>
+	<bill>
+		<id>1286</id>
+		<date>02/11/2011</date>
+		<address>Ap #260-2295 Elit, Street</address>
+		<postCode>68062</postCode>
+		<city>Weirton</city>
+		<country>Netherlands</country>
+		<contact>Channing C. Gibson</contact>
+		<phone>1 50 463 6201-9152</phone>
+	</bill>
+	<bill>
+		<id>1287</id>
+		<date>09/05/2011</date>
+		<address>P.O. Box 844, 3770 Blandit Rd.</address>
+		<postCode>B1B 8D7</postCode>
+		<city>Bethany</city>
+		<country>Bahamas</country>
+		<contact>Guy K. Ellis</contact>
+		<phone>1 57 583 8458-6501</phone>
+	</bill>
+	<bill>
+		<id>1288</id>
+		<date>09/12/2011</date>
+		<address>828 Tempor Rd.</address>
+		<postCode>D5M 2O3</postCode>
+		<city>Gloucester</city>
+		<country>France</country>
+		<contact>Ima R. Hebert</contact>
+		<phone>1 78 242 9713-3009</phone>
+	</bill>
+	<bill>
+		<id>1289</id>
+		<date>11/04/2011</date>
+		<address>6734 Morbi St.</address>
+		<postCode>81935</postCode>
+		<city>Danbury</city>
+		<country>Tajikistan</country>
+		<contact>Veda E. Maddox</contact>
+		<phone>1 49 807 9409-2235</phone>
+	</bill>
+	<bill>
+		<id>1290</id>
+		<date>03/04/2011</date>
+		<address>365-4643 Curae; Road</address>
+		<postCode>Z4C 1I3</postCode>
+		<city>Olean</city>
+		<country>Marshall Islands</country>
+		<contact>Devin C. Mccullough</contact>
+		<phone>1 49 129 8249-1615</phone>
+	</bill>
+	<bill>
+		<id>1291</id>
+		<date>08/26/2011</date>
+		<address>7483 Luctus Road</address>
+		<postCode>39660</postCode>
+		<city>Philadelphia</city>
+		<country>Viet Nam</country>
+		<contact>Jarrod N. Goodwin</contact>
+		<phone>1 79 618 7485-6348</phone>
+	</bill>
+	<bill>
+		<id>1292</id>
+		<date>09/29/2011</date>
+		<address>366-9390 Dolor Rd.</address>
+		<postCode>B6N 1F1</postCode>
+		<city>Brea</city>
+		<country>Tuvalu</country>
+		<contact>Cain H. Maxwell</contact>
+		<phone>1 63 224 1999-4539</phone>
+	</bill>
+	<bill>
+		<id>1293</id>
+		<date>03/20/2011</date>
+		<address>Ap #869-6837 Nec Road</address>
+		<postCode>C7B 6T2</postCode>
+		<city>Sandpoint</city>
+		<country>Syrian Arab Republic</country>
+		<contact>Chiquita L. Ward</contact>
+		<phone>1 56 768 2781-7371</phone>
+	</bill>
+	<bill>
+		<id>1294</id>
+		<date>07/02/2012</date>
+		<address>Ap #816-413 Nibh. St.</address>
+		<postCode>G2X 3T6</postCode>
+		<city>Middlebury</city>
+		<country>Mali</country>
+		<contact>Kevyn M. Reese</contact>
+		<phone>1 92 179 9978-0417</phone>
+	</bill>
+	<bill>
+		<id>1295</id>
+		<date>10/04/2011</date>
+		<address>1630 Dolor Rd.</address>
+		<postCode>Y4N 1H7</postCode>
+		<city>Santa Rosa</city>
+		<country>Vanuatu</country>
+		<contact>Grace N. Gonzalez</contact>
+		<phone>1 28 539 2281-9714</phone>
+	</bill>
+	<bill>
+		<id>1296</id>
+		<date>04/24/2012</date>
+		<address>P.O. Box 428, 8256 Ipsum. Avenue</address>
+		<postCode>Q7P 2V8</postCode>
+		<city>Waco</city>
+		<country>Norfolk Island</country>
+		<contact>Sharon A. Fleming</contact>
+		<phone>1 44 887 7006-1933</phone>
+	</bill>
+	<bill>
+		<id>1297</id>
+		<date>12/10/2010</date>
+		<address>P.O. Box 598, 6339 Nulla. Street</address>
+		<postCode>V3V 4K6</postCode>
+		<city>Fullerton</city>
+		<country>Germany</country>
+		<contact>Francesca Q. Charles</contact>
+		<phone>1 35 113 8937-5579</phone>
+	</bill>
+	<bill>
+		<id>1298</id>
+		<date>05/19/2011</date>
+		<address>P.O. Box 212, 7818 Libero Street</address>
+		<postCode>15000</postCode>
+		<city>Leominster</city>
+		<country>Paraguay</country>
+		<contact>Gabriel A. Schneider</contact>
+		<phone>1 54 404 5324-7003</phone>
+	</bill>
+	<bill>
+		<id>1299</id>
+		<date>05/12/2012</date>
+		<address>P.O. Box 151, 1885 Lorem Avenue</address>
+		<postCode>V1N 4D5</postCode>
+		<city>Kennesaw</city>
+		<country>Nauru</country>
+		<contact>Daquan L. Robles</contact>
+		<phone>1 32 863 4166-5466</phone>
+	</bill>
+	<bill>
+		<id>1300</id>
+		<date>03/05/2012</date>
+		<address>Ap #110-5665 Et Rd.</address>
+		<postCode>33788</postCode>
+		<city>Two Rivers</city>
+		<country>Jamaica</country>
+		<contact>Drew R. Larsen</contact>
+		<phone>1 19 938 6617-3827</phone>
+	</bill>
+	<bill>
+		<id>1301</id>
+		<date>02/20/2012</date>
+		<address>Ap #989-5106 Aenean Avenue</address>
+		<postCode>52990</postCode>
+		<city>Somerville</city>
+		<country>Saudi Arabia</country>
+		<contact>Yolanda B. Ferrell</contact>
+		<phone>1 59 249 5241-4143</phone>
+	</bill>
+	<bill>
+		<id>1302</id>
+		<date>09/16/2012</date>
+		<address>3822 Lectus Street</address>
+		<postCode>78431</postCode>
+		<city>Hagerstown</city>
+		<country>Ethiopia</country>
+		<contact>Dahlia B. Cotton</contact>
+		<phone>1 24 174 3136-4879</phone>
+	</bill>
+	<bill>
+		<id>1303</id>
+		<date>03/16/2011</date>
+		<address>516-4911 Dolor Street</address>
+		<postCode>V3V 7S1</postCode>
+		<city>Tamuning</city>
+		<country>Barbados</country>
+		<contact>Hunter H. Bryan</contact>
+		<phone>1 53 750 3815-4642</phone>
+	</bill>
+	<bill>
+		<id>1304</id>
+		<date>03/01/2011</date>
+		<address>Ap #883-8859 At Road</address>
+		<postCode>X7I 7L0</postCode>
+		<city>Stevens Point</city>
+		<country>Georgia</country>
+		<contact>Brielle L. Ferguson</contact>
+		<phone>1 47 713 8419-0664</phone>
+	</bill>
+	<bill>
+		<id>1305</id>
+		<date>12/24/2011</date>
+		<address>4766 Justo Street</address>
+		<postCode>T5B 5V7</postCode>
+		<city>Troy</city>
+		<country>Thailand</country>
+		<contact>Malcolm A. Davenport</contact>
+		<phone>1 96 464 6910-1107</phone>
+	</bill>
+	<bill>
+		<id>1306</id>
+		<date>10/27/2011</date>
+		<address>Ap #161-3060 Fringilla Rd.</address>
+		<postCode>F1R 3M5</postCode>
+		<city>Agat</city>
+		<country>Honduras</country>
+		<contact>Hasad Q. Moody</contact>
+		<phone>1 45 382 7428-4304</phone>
+	</bill>
+	<bill>
+		<id>1307</id>
+		<date>03/17/2011</date>
+		<address>8416 Diam Av.</address>
+		<postCode>10126</postCode>
+		<city>Grass Valley</city>
+		<country>Puerto Rico</country>
+		<contact>Clare C. Goodman</contact>
+		<phone>1 69 795 1776-1956</phone>
+	</bill>
+	<bill>
+		<id>1308</id>
+		<date>08/01/2012</date>
+		<address>P.O. Box 512, 4465 Natoque Rd.</address>
+		<postCode>23134</postCode>
+		<city>Henderson</city>
+		<country>Algeria</country>
+		<contact>Ruby F. Briggs</contact>
+		<phone>1 22 819 8695-4674</phone>
+	</bill>
+	<bill>
+		<id>1309</id>
+		<date>06/03/2012</date>
+		<address>Ap #805-4589 Nulla Road</address>
+		<postCode>F4N 6O8</postCode>
+		<city>Bakersfield</city>
+		<country>Uruguay</country>
+		<contact>Sasha B. Stanton</contact>
+		<phone>1 10 381 2681-2379</phone>
+	</bill>
+	<bill>
+		<id>1310</id>
+		<date>10/14/2012</date>
+		<address>565-7732 Fermentum Avenue</address>
+		<postCode>79225</postCode>
+		<city>San Jose</city>
+		<country>Aruba</country>
+		<contact>Maggie W. Prince</contact>
+		<phone>1 57 950 8724-6469</phone>
+	</bill>
+	<bill>
+		<id>1311</id>
+		<date>11/28/2012</date>
+		<address>2241 Luctus Rd.</address>
+		<postCode>29799</postCode>
+		<city>Wilkes-Barre</city>
+		<country>Croatia</country>
+		<contact>Kyla G. Rich</contact>
+		<phone>1 25 262 1238-9625</phone>
+	</bill>
+	<bill>
+		<id>1312</id>
+		<date>01/07/2012</date>
+		<address>Ap #358-4668 Phasellus Av.</address>
+		<postCode>N4P 5D5</postCode>
+		<city>Laguna Woods</city>
+		<country>Brazil</country>
+		<contact>Reagan X. Ball</contact>
+		<phone>1 12 418 7210-1063</phone>
+	</bill>
+	<bill>
+		<id>1313</id>
+		<date>06/18/2011</date>
+		<address>288-301 Montes, Ave</address>
+		<postCode>55110</postCode>
+		<city>Elsmere</city>
+		<country>Palau</country>
+		<contact>John M. Harrison</contact>
+		<phone>1 52 576 7639-7408</phone>
+	</bill>
+	<bill>
+		<id>1314</id>
+		<date>08/25/2012</date>
+		<address>838-7375 Eget Rd.</address>
+		<postCode>84135</postCode>
+		<city>Fort Dodge</city>
+		<country>Haiti</country>
+		<contact>Serina W. Wilson</contact>
+		<phone>1 34 459 2167-5659</phone>
+	</bill>
+	<bill>
+		<id>1315</id>
+		<date>02/06/2012</date>
+		<address>P.O. Box 306, 8064 Vulputate Road</address>
+		<postCode>94746</postCode>
+		<city>Bethany</city>
+		<country>Yemen</country>
+		<contact>Yvette V. Hurst</contact>
+		<phone>1 93 147 6387-0636</phone>
+	</bill>
+	<bill>
+		<id>1316</id>
+		<date>07/27/2011</date>
+		<address>521-3638 Semper. Street</address>
+		<postCode>22679</postCode>
+		<city>Austin</city>
+		<country>Italy</country>
+		<contact>Allistair K. Barlow</contact>
+		<phone>1 58 489 8551-3310</phone>
+	</bill>
+	<bill>
+		<id>1317</id>
+		<date>02/18/2012</date>
+		<address>P.O. Box 941, 3134 Sapien. Av.</address>
+		<postCode>29856</postCode>
+		<city>Norman</city>
+		<country>Latvia</country>
+		<contact>Maryam N. Blackburn</contact>
+		<phone>1 74 158 8463-0873</phone>
+	</bill>
+	<bill>
+		<id>1318</id>
+		<date>12/11/2010</date>
+		<address>8640 Laoreet Av.</address>
+		<postCode>81511</postCode>
+		<city>Joliet</city>
+		<country>Poland</country>
+		<contact>Patrick E. Bird</contact>
+		<phone>1 41 706 7655-1191</phone>
+	</bill>
+	<bill>
+		<id>1319</id>
+		<date>10/13/2011</date>
+		<address>980-5532 Feugiat. Ave</address>
+		<postCode>V5I 1B5</postCode>
+		<city>Charleston</city>
+		<country>Kyrgyzstan</country>
+		<contact>Dalton O. Thomas</contact>
+		<phone>1 42 713 3808-4103</phone>
+	</bill>
+	<bill>
+		<id>1320</id>
+		<date>09/14/2012</date>
+		<address>P.O. Box 837, 9781 Nascetur Avenue</address>
+		<postCode>28168</postCode>
+		<city>Coos Bay</city>
+		<country>Brazil</country>
+		<contact>Yoshio J. Nixon</contact>
+		<phone>1 82 819 9527-5017</phone>
+	</bill>
+	<bill>
+		<id>1321</id>
+		<date>04/03/2012</date>
+		<address>P.O. Box 178, 6502 Eget Rd.</address>
+		<postCode>03184</postCode>
+		<city>Rohnert Park</city>
+		<country>Portugal</country>
+		<contact>Mechelle S. Swanson</contact>
+		<phone>1 32 650 7493-6687</phone>
+	</bill>
+	<bill>
+		<id>1322</id>
+		<date>07/12/2011</date>
+		<address>3996 Nulla Rd.</address>
+		<postCode>90503</postCode>
+		<city>Reno</city>
+		<country>Timor-leste</country>
+		<contact>Rooney P. Kline</contact>
+		<phone>1 53 386 8366-7694</phone>
+	</bill>
+	<bill>
+		<id>1323</id>
+		<date>09/11/2011</date>
+		<address>P.O. Box 248, 4357 Porttitor Av.</address>
+		<postCode>O2A 6S0</postCode>
+		<city>Webster Groves</city>
+		<country>Kiribati</country>
+		<contact>Tucker Z. Rhodes</contact>
+		<phone>1 52 480 9636-3122</phone>
+	</bill>
+	<bill>
+		<id>1324</id>
+		<date>06/14/2012</date>
+		<address>P.O. Box 918, 7482 Lorem Rd.</address>
+		<postCode>A3P 1X3</postCode>
+		<city>Batavia</city>
+		<country>Swaziland</country>
+		<contact>Quemby P. Williams</contact>
+		<phone>1 74 802 8092-7240</phone>
+	</bill>
+	<bill>
+		<id>1325</id>
+		<date>12/23/2011</date>
+		<address>Ap #590-260 Gravida St.</address>
+		<postCode>A1R 6B5</postCode>
+		<city>Tupelo</city>
+		<country>Bolivia</country>
+		<contact>Ignatius C. Nixon</contact>
+		<phone>1 14 684 8758-0314</phone>
+	</bill>
+	<bill>
+		<id>1326</id>
+		<date>05/27/2011</date>
+		<address>Ap #999-2003 Ornare Rd.</address>
+		<postCode>32608</postCode>
+		<city>Opelousas</city>
+		<country>Myanmar</country>
+		<contact>Nigel A. Riley</contact>
+		<phone>1 48 174 9237-8171</phone>
+	</bill>
+	<bill>
+		<id>1327</id>
+		<date>10/18/2011</date>
+		<address>Ap #946-7910 Nisl St.</address>
+		<postCode>13939</postCode>
+		<city>Wichita</city>
+		<country>Brunei Darussalam</country>
+		<contact>Megan V. May</contact>
+		<phone>1 45 226 9762-0311</phone>
+	</bill>
+	<bill>
+		<id>1328</id>
+		<date>08/25/2011</date>
+		<address>333-8915 Lobortis Street</address>
+		<postCode>B5O 4K8</postCode>
+		<city>Jersey City</city>
+		<country>Guyana</country>
+		<contact>Adrian Y. Boyer</contact>
+		<phone>1 85 508 2058-3514</phone>
+	</bill>
+	<bill>
+		<id>1329</id>
+		<date>07/19/2012</date>
+		<address>2079 Luctus St.</address>
+		<postCode>R6M 2E9</postCode>
+		<city>Mandan</city>
+		<country>Antarctica</country>
+		<contact>Galvin B. Townsend</contact>
+		<phone>1 48 993 9760-2438</phone>
+	</bill>
+	<bill>
+		<id>1330</id>
+		<date>01/23/2012</date>
+		<address>Ap #730-5966 Nibh Av.</address>
+		<postCode>12363</postCode>
+		<city>Martinsburg</city>
+		<country>Luxembourg</country>
+		<contact>Teagan W. Massey</contact>
+		<phone>1 86 365 3049-6520</phone>
+	</bill>
+	<bill>
+		<id>1331</id>
+		<date>05/12/2012</date>
+		<address>Ap #744-7014 Lacus, St.</address>
+		<postCode>I5L 6W0</postCode>
+		<city>Waco</city>
+		<country>Honduras</country>
+		<contact>Kimberley Y. Sharp</contact>
+		<phone>1 46 662 1935-8001</phone>
+	</bill>
+	<bill>
+		<id>1332</id>
+		<date>07/08/2011</date>
+		<address>728-6912 Nibh. Avenue</address>
+		<postCode>A9M 4O3</postCode>
+		<city>Lander</city>
+		<country>Lesotho</country>
+		<contact>Ocean I. Baird</contact>
+		<phone>1 74 921 3306-8969</phone>
+	</bill>
+	<bill>
+		<id>1333</id>
+		<date>07/11/2012</date>
+		<address>3983 Nisi. Ave</address>
+		<postCode>Q4L 6W8</postCode>
+		<city>Columbus</city>
+		<country>Comoros</country>
+		<contact>Georgia X. Nunez</contact>
+		<phone>1 40 689 8921-9808</phone>
+	</bill>
+</bills>
