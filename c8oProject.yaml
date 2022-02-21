@@ -5,7 +5,7 @@
   corsOrigin: 
   jsonOutput: verbose
   jsonRoot: docNode
-  version: 7.2.0
+  version: 7.9.0
   ↓databaseConnector [connectors.SqlConnector]: 🗏 connectors/databaseConnector.yaml
   ↓billsList [sequences.GenericSequence]: 🗏 sequences/billsList.yaml
   ↓getBill [sequences.GenericSequence]: 🗏 sequences/getBill.yaml
