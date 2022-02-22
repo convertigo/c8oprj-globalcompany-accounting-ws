@@ -1,0 +1,4 @@
+path: /v1/bill/{id}
+↓GetOperation [rest.GetOperation]: 
+  ↓id [rest.PathParameter-1645522451686]: 
+    mappedVariableName: billId

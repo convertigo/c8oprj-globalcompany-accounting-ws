@@ -1,0 +1,5 @@
+path: /v1/salary/{employeeId}
+↓GetOperation [rest.GetOperation]: 
+  targetRequestable: globalCompany_accounting_WS.getSalary
+  ↓employeeId [rest.PathParameter-1645522451686]: 
+    mappedVariableName: employeeId

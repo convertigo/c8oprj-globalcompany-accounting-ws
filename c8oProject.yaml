@@ -4,10 +4,10 @@
   comment: 'Sequencer project to be deployed on demo.convertigo.net server to simulate an existing Web service of the Global company: Accounting.'
   corsOrigin: 
   jsonOutput: verbose
-  jsonRoot: docNode
   version: 7.9.0
   ↓databaseConnector [connectors.SqlConnector]: 🗏 connectors/databaseConnector.yaml
   ↓billsList [sequences.GenericSequence]: 🗏 sequences/billsList.yaml
   ↓getBill [sequences.GenericSequence]: 🗏 sequences/getBill.yaml
   ↓getSalary [sequences.GenericSequence]: 🗏 sequences/getSalary.yaml
   ↓salariesList [sequences.GenericSequence]: 🗏 sequences/salariesList.yaml
+  ↓UrlMapper [core.UrlMapper]: 🗏 urlMapper.yaml
